@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Personal project - S3 bucket for Terraform Conformity Pipeline'
+
+Resources:
+  ProjectS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: terraform-conformity-pipeline-bucket
+

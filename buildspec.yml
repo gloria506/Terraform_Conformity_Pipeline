@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - pip install pyyaml
+
+  build:
+    commands:
+      - echo "Running security check..."
+      - python security_check.py
+
