@@ -1,8 +1,8 @@
 {
-  "name": "cloudone-scan",
+  "name": "your-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'No actual start script'"
+    "test": "echo \"No tests to run\" && exit 0"
   }
 }
 
