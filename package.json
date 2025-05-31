@@ -1,0 +1,8 @@
+{
+  "name": "cloudone-scan",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'No actual start script'"
+  }
+}
+
