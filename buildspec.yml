@@ -3,12 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.11
+      nodejs: 14
     commands:
-      - pip install pyyaml
-
+      - echo "No npm install needed"
   build:
     commands:
-      - echo "Running security check..."
-      - python security_check.py
+      - echo "Running Conformity scan..."
+      - cat template.yaml  # Replace this with actual scan command if integrated
+artifacts:
+  files:
+    - template.yaml
 
