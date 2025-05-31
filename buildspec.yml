@@ -5,11 +5,12 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
-      - echo "No npm install needed"
+      - echo "Using Node.js 14"
+      - echo "No dependencies to install"
   build:
     commands:
-      - echo "Running Conformity scan..."
-      - cat template.yaml
+      - echo "Running placeholder for Conformity scan"
+      - cat template.yaml  # Replace or expand this when integrating the real scanner
 artifacts:
   files:
     - template.yaml
